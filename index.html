@@ -5,9 +5,17 @@
     <title>Miscangular</title>
   </head>
   <body>
+    <div ng-app="myApp">
+      <div ng-controller="UserCtrl">
+          <p class="username">{{ user.details.username }}</p>
+          <p class="id">{{ user.details.id }}</p>
+      </div>
+    </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
